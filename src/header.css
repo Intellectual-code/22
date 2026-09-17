@@ -9,7 +9,7 @@ header{
     align-items: center;
     padding: 20px 40px;
     background: black;
-    color: rgb(125, 0, 174);
+    color: rgb(160, 0, 193);
     position: sticky;
     top: 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
@@ -19,27 +19,46 @@ body{
     background-color: rgb(60, 60, 60);
 }
 nav a{
-    color: rgb(135, 0, 162);
-    font-weight: 500;
+    color: rgb(160, 0, 193);
+    font-weight: 700;
     font-size: 20px;
     margin: 15px;
     text-decoration: none;
+    transition: ease-in-out 0.4s;
+}
+.nav1{
+    margin-right: 200px;
+    
 }
 div button{
     padding: 8px 25px;
     border-radius: 12px;
-    border: 2px solid rgb(135, 0, 162);
-    color: rgb(135, 0, 162);
+    border: 2px solid rgb(160, 0, 193);
+    color: rgb(160, 0, 193);
     background-color: black;
     font-weight: 700;
     font-size: 16px;
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
 }
 div button:hover{
-    background-color: rgb(135, 0, 162);
+    background-color: rgb(160, 0, 193);
     color: black;
-    transition: all ease 0.5s ;
+    transition: all ease 0.4s ;
 }
 nav a:hover{
    color: rgb(97, 0, 116);
-   transition: all 0.2s;
+   transition: ease-in-out 0.4s;
+}
+.LogoBlock{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.LogoBlock p{
+    font-weight: 900;
+    font-size: 22px;
+    cursor: pointer;
+    color: linear-gradient(21deg, #a802ad, #3c08ab);
 }

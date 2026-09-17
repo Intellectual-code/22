@@ -4,9 +4,10 @@ function Header() {
     <header>
       <div className="LogoBlock">
         <img src={logo} alt=""></img>
+        <p>MegaGame</p>
       </div>
       <div>
-        <nav>
+        <nav className="nav1">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
